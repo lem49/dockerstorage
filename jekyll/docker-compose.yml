@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jekyll-serve-blog:
+    build: .
+    volumes:
+      - c:/Users/marle_000/Documents/GitHub/lem49.github.io:/srv/jekyll
+      - data:/box
+    ports:
+      - "4000:4000"
+volumes:
+  data:
