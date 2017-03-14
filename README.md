@@ -1,4 +1,4 @@
-dockersorage
-------------
+dockerstorage
+-------------
 
 Collection of simple dockerfiles.
